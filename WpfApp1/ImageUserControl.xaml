@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="WpfApp1.ImageUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="250">
+
+    <Border CornerRadius="10"> 
+
+        <Image  Name="SelectionImage" Width="170" Height="170" Margin="15"></Image>
+
+
+    </Border>
+    
+    
+</UserControl>
